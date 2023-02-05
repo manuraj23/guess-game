@@ -1,11 +1,12 @@
 #project
 x=int(input("Starting Value: "))
 y=int(input("Ending Value: "))
+# checking if the starting value is greater than the ending value.
 if y-x>0:
     import random
 
     num1 = random.randint(x, y)
-    # print(num1)
+#taking user input to enter their choice.
     a = int(input("Enter your choice: "))
     if a == num1:
         print("You win the game")
