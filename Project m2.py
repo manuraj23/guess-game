@@ -10,6 +10,7 @@ if y-x>0:
     a = int(input("Enter your choice: "))
     if a == num1:
         print("You win the game")
+#checking if the number entered by the user mathes the number selected by the random module.
     else:
         print("Try Again")
         print("2 more chance left")
@@ -25,5 +26,6 @@ if y-x>0:
             else:
                 print("You Lose")
                 print("Number was: ", num1)
+#If the range entered by the user is incorrect then this wil be executed.
 else:
     print("Invalid Range")
